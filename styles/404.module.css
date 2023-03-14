@@ -1,0 +1,6 @@
+.flex_container {
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
+}

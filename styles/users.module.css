@@ -1,0 +1,24 @@
+.link_profile {
+    background: fixed;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.navbar {
+    display: flex;
+    background: orange;
+    padding: 1%;
+}
+
+.navbar_a {
+    text-decoration: none;
+    margin-left: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+.link_profile_a {
+    text-decoration: none;
+    color: rgb(109, 57, 57);
+    font-size: large;
+}

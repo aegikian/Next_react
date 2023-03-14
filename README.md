@@ -2,6 +2,14 @@
 next+react+link+spa
 
 
->>> npm i \n
->>> npm run dev //for developers mode
->>> npm run build // for build
+>>> npm i 
+
+//for developers mode
+
+>>> npm run dev 
+
+// for build
+
+>>> npm run build
+
+

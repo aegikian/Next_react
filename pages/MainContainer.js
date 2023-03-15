@@ -10,11 +10,11 @@ export const MainContainer = ({ children, keywords, title }) => {
                 <title>{title}</title>
             </Head>
             <nav className={styles.navbar}>
-                <Link legacyBehavior href="/">
-                    <a className={styles.navbar_a}>Главная</a>
+                <Link href="/" className={styles.navbar_a}>
+                    Главная
                 </Link>
-                <Link href="/users" legacyBehavior>
-                    <a className={styles.navbar_a} >Пользователи</a>
+                <Link href="/users" className={styles.navbar_a}>
+                    Пользователи
                 </Link>
             </nav>
             <div>

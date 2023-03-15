@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
 import styles from "../styles/users.module.css";
 import { MainContainer } from "./MainContainer";
 
@@ -12,8 +11,6 @@ export async function getStaticProps(context) {
 }
 
 const Users = ({ users }) => {
-
-
 
     return (
         <MainContainer keywords={'test keywords'} title={'Пользователи'}>

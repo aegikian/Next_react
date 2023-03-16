@@ -10,6 +10,10 @@
     padding: 1%;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .navbar_a {
     text-decoration: none;
     margin-left: 2%;
@@ -21,4 +25,5 @@
     text-decoration: none;
     color: rgb(109, 57, 57);
     font-size: large;
+    cursor: pointer;
 }

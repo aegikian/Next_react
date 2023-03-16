@@ -18,8 +18,8 @@ const Users = ({ users }) => {
             <ul>
                 {users.map(user =>
                     <div key={user.id} className={styles.link_profile}>
-                        <Link legacyBehavior href={`/users/${user.id}`}>
-                            <a className={styles.link_profile_a}>{user.name}</a>
+                        <Link className={styles.link} href={`/users/${user.id}`}>
+                            <h2 className={styles.link_profile_a}> { user.name }</h2>
                         </Link>
                     </div>
                 )}
